@@ -1,0 +1,248 @@
+LIBRARY	"cncapi"
+
+EXPORTS
+	CncGetAPIVersion
+	CncGetServerVersion
+	CncGetControllerFirmwareVersion  
+	CncGetControllerSerialNumber
+	CncGetSystemConfig
+	CncGetInterpreterConfig
+	CncGetSafetyConfig
+	CncGetTrafficLightConfig
+	CncGetProbingConfig
+	CncGetIOConfig
+	CncGetIOStatus
+	CncGetGPIOStatus
+	CncGetJointConfig
+	CncGetSpindleConfig
+	CncGetFeedSpeedConfig
+	CncGetHandwheelConfig
+	CncGetTrajectoryConfig
+	CncGetKinConfig
+	CncGetUIConfig
+	CncGetCameraConfig
+	CncGetToolData
+	CncUpdateToolData
+	CncLoadToolTable
+	CncStoreIniFile
+	CncGetControllerNumberOfFrequencyItems
+	CncGetControllerFrequencyItem
+	CncIsServerConnected
+	CncGetControllerConnectionItem
+	CncGetControllerConnectionNumberOfItems
+	CncGetNrOfAxesOnController
+	CncGetAxisIsConfigured
+	CncGetSimulationMode
+	CncGetState
+	CncGetCurInterpreterLineNumber
+	CncGetSearchStatus
+	CncGet3DPrintStatus
+	CncGetCurExecLine
+	CncGetSingleStepMode
+	CncSetExtraJobOptions
+	CncGetExtraJobOptions
+	CncGetActualFeedOverride
+	CncGetJointStatus
+	CncGetFifoSize
+	CncGetFifoFreeSize
+	CncGetMotionEnabled
+	CncIsCapturing
+	CncGetIsCaptured
+	CncGetCurrentGcodesText
+	CncGetCurrentMcodesText
+	CncSingleStepMode
+	CncGetCurrentGcodeSettingsText
+    CncG43Active
+   	CncGetJointPosRaw
+	CncGetMachineZeroWorkPoint
+	CncGetActualOriginOffset
+	CncGetActualToolZOffset
+	CncGetActualToolXOffset
+	CncGetActualG68Rotation
+	CncGetActualG68RotationPlane
+	CncGetActualFeed
+	CncGetPauseStatus
+	CncGetSwLimitError
+	CncGetFifoError
+	CncGetEMStopActive
+	CncGetVariable
+	CncSetVariable
+	CncInMillimeterMode
+	CncGetIOName
+	CncGetOutput
+	CncGetOutputRaw
+	CncGetInput
+	CncGetInputRaw
+	CncGetSpindleStatus
+	CncGetAllAxesHomed
+	CncGetSafetyMode
+	CncGetKinStatus
+	CncLogFifoGet
+    CncPosFifoGet
+    CncPosFifoGet2
+    CncGraphFifoGet
+	CncConnectServer
+	CncDisConnectServer
+	CncEnableBlockDelete
+	CncStartRenderGraph
+	CncSetOutput
+	CncSetOutputRaw
+	CncSetSpindleOutput
+	CncAbortJob
+	CncSwitchOnSpindleAndWaitUntilOn
+	CncPauseJob
+	CncRunOrResumeJob
+	CncSetJobArrayParameters
+	CncGetJobArrayParameters
+	CncGetJobFiducual
+	CncRewindJob
+	CncReset
+	CncReset2
+	CncStartJog
+	CncStartJog2
+	CncStopJog
+	CncMoveTo
+	CncStartPositionTracking
+	CncStartVelocityTracking
+	CncStartHandweelTracking
+	CncStartPlasmaTHCTracking
+	CncSetTrackingPosition
+	CncSetTrackingVelocity
+	CncSetTrackingPosition2
+	CncSetTrackingVelocity2
+	CncSetTrackingHandwheelCounter
+	CncStopTracking
+	Cnc3DPrintCommand
+	CncGetTrackingStatus
+	CncGetTHCStatus
+	CncSetFeedOverride
+	CncSetArcFeedOverride
+	CncSetSpeedOverride
+	CncRunSingleLine
+	CncWaitSingleLine
+	CncLoadJobA
+	CncLoadJobW
+	CncFindFirstJobLine
+	CncFindFirstJobLineF
+	CncFindNextJobLine
+	CncFindNextJobLineF
+	CncGetMacroFileName
+	CncSetMacroFileName
+	CncGetUserMacroFileName
+	CncSetUserMacroFileName
+	CncSetSimulationMode
+	CncReInitialize
+	CncGetSetupPassword
+	CncSetSetupPassword
+	CncGetRCText
+	CncGetStateText
+	CncStartRenderGraph
+	CncSendUserMessage
+	CncActivateOption
+	CncGet10msHeartBeat
+	CncGetActiveOptions
+	CncGetActualArcFeedOverride
+	CncGetActualSpeed
+	CncGetActualSpeedOverride
+	CncGetBlocDelete
+	CncGetControllerConfigStatus
+	CncGetControllerStatus
+	CncGetCurrentToolNumber
+	CncGetFirmwareHasOptions
+	CncGetGPIOConfig
+	CncGetGPIOInput
+	CncGetGPIOOutput
+	CncGetJobMaterialSize
+	CncGetJobStatus
+	CncGetMachinePosition
+	CncGetMotionStatus
+	CncGetMotorPosition
+	CncGetNestingStatus
+	CncGetOptionRequestCode
+	CncGetOptionRequestCodeCurrent
+	CncGetProgrammedFeed
+	CncGetProgrammedSpeed
+	CncGetRunningStatus
+	CncGetTHCConfig
+	CncGet3DPrintConfig
+	CncGetServiceConfig
+	CncGetUIOConfig
+	CncGetTrafficLightStatus
+    CncGetActualPlane
+	CncGetWorkPosition
+	CncKinActivate
+	CncKinControl
+	CncKinGetARotationPoint
+	CncKinGetActiveType
+	CncKinInit
+	CncSetGPIOOutput
+	CncSetPlasmaParameters
+	CncStartRenderSearch
+	CncSyncPauseAxis
+        CncSyncFromPauseAndStartAutomatic
+	CncSyncPauseXSafe
+	CncSyncPauseZSafe
+	CncSyncSearchAxis
+	CncSyncSearchTool
+	CncSyncSearchXSafe
+	CncSyncSearchZSafe
+        CncSyncFromSearchAndStartAutomatic
+	CncGetCompensationStatus
+	CncSyncInchModeAndParametersAndOffset
+	CncCheckStartConditionOK
+	CncEnableOptionalStop
+	CncGetOptionalStop
+	CncSendToGUI
+	CncGetGUICommand
+	CncMemGetVacuumConfig
+	CncGetVacuumStatus
+	CncGetPlasmaParameters
+	CncGetCurInterpreterLineNumber
+	CncGetCurInterpreterLineText
+	CncCurrentInterpreterLineContainsToolChange
+	CncSwitchOnSpindleAndWaitUntilOn
+	CncSwitchOffSpindleAndWaitUntilOff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
