@@ -1,6 +1,11 @@
 # CncApiNetFramework
 EdingCncApi wrapper (C++/CLI .Net Framework 4.0)
 
+# Sidenote
+The CncApiNetFramework C ++ / CLI wrapper is not compatible with other .net runtimes such as mono. At the moment I am working on a new cncapi wrapper that is written entirely in C # (netstandard 2.0).
+The current wrapper therefore has less priority. I will upload new versions of the cncapi released by edingcnc to Nuget.
+
+
 # TODO
 Adjust setters of all properties by setting the InternalCncMethods :: SetPropertyIfUnlocked (PT_S SOURCE, PT_S * DESTINATION, bool IS_LOCEKD).
 Some of the Cncserver's variables are read-only pointers.
@@ -46,6 +51,8 @@ public ref class CncBasicInterpreterStatus : public Managedstruct<CNC_BASIC_INTE
   }
   //....
 }
+
+
 
 
 
