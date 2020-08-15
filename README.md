@@ -1,12 +1,13 @@
 # CncApiNetFramework
 EdingCncApi wrapper (C++/CLI .Net Framework 4.0)
 
-Sample code can be founded at: https://www.oosterhof-design.com/cncapi-netframework/
+Sample code can be founded here: https://www.oosterhof-design.com/cncapi-netframework/
 
 # Sidenote
 The CncApiNetFramework C ++ / CLI wrapper is not compatible with other .net runtimes such as mono. At the moment I am working on a new cncapi wrapper that is written entirely in C # (netstandard 2.0).
 The current wrapper therefore has less priority. I will upload new versions of the cncapi released by edingcnc to Nuget.
 
+The new EdingCncApi .Net wrapper can be founded here: https://github.com/Oosterhof-Design/CncApiNetStandard
 
 # TODO
 Adjust setters of all properties by setting the InternalCncMethods :: SetPropertyIfUnlocked (PT_S SOURCE, PT_S * DESTINATION, bool IS_LOCEKD).
