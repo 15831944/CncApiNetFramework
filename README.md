@@ -1,5 +1,5 @@
 # CncApiNetFramework
-EdingCncApi wrapper (C++/CLI .Net Framework 4.0)
+EdingCncApi wrapper V4.03.52 (C++/CLI .Net Framework 4.0)
 
 Sample code can be founded here: https://www.oosterhof-design.com/cncapi-netframework/
 
