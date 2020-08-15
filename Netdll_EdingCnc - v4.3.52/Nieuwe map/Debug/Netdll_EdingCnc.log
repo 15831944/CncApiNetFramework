@@ -1,0 +1,10 @@
+﻿  Stdafx.cpp
+  AssemblyInfo.cpp
+  Cnc_S_Oosterhof.cpp
+d:\s oosterhof\mijn documenten\visual studio 2017\projects\edingcnc\netdll_edingcnc - v4.3.25 -backup 09-09-2018\netdll_edingcnc\cncapi\cncapi.h(72): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+d:\s oosterhof\mijn documenten\visual studio 2017\projects\edingcnc\netdll_edingcnc - v4.3.25 -backup 09-09-2018\netdll_edingcnc\stringconversie.h(25): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+  Generating Code...
+  .NETFramework,Version=v4.6.AssemblyAttributes.cpp
+  Netdll_EdingCnc.vcxproj -> D:\S Oosterhof\Mijn Documenten\Visual Studio 2017\Projects\edingcnc\Netdll_EdingCnc - v4.3.25 -backup 09-09-2018\Netdll_EdingCnc\..\Debug\Netdll_EdingCnc.dll

@@ -1,0 +1,19 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (CncapiNet.vcxproj, Netdll_EdingCnc.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Stdafx.cpp
+  AssemblyInfo.cpp
+  Cnc_S_Oosterhof.cpp
+f:\s oosterhof\mijn documenten\visual studio 2017\projects\edingcnc\cncapinet\netdll_edingcnc - v4.3.36 - x64 support\netdll_edingcnc\cncapi\cncapi.h(71): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(338): note: see declaration of 'strncpy'
+f:\s oosterhof\mijn documenten\visual studio 2017\projects\edingcnc\cncapinet\netdll_edingcnc - v4.3.36 - x64 support\netdll_edingcnc\stringconversie.h(23): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+f:\s oosterhof\mijn documenten\visual studio 2017\projects\edingcnc\cncapinet\netdll_edingcnc - v4.3.36 - x64 support\netdll_edingcnc\typedefenumclass.h(15): warning C4091: 'typedef value ': ignored on left of 'OosterhofDesign::CncDef_AxesId' when no variable is declared
+f:\s oosterhof\mijn documenten\visual studio 2017\projects\edingcnc\cncapinet\netdll_edingcnc - v4.3.36 - x64 support\netdll_edingcnc\typedefenumclass.h(25): warning C4091: 'typedef value ': ignored on left of 'OosterhofDesign::CncDef_JointId' when no variable is declared
+f:\s oosterhof\mijn documenten\visual studio 2017\projects\edingcnc\cncapinet\netdll_edingcnc - v4.3.36 - x64 support\netdll_edingcnc\typedefenumclass.h(33): warning C4091: 'typedef value ': ignored on left of 'OosterhofDesign::CncDef_JogStepSize' when no variable is declared
+f:\s oosterhof\mijn documenten\visual studio 2017\projects\edingcnc\cncapinet\netdll_edingcnc - v4.3.36 - x64 support\netdll_edingcnc\typedefenumclass.h(47): warning C4091: 'typedef value ': ignored on left of 'OosterhofDesign::CncDef_HandWheelOn' when no variable is declared
+f:\s oosterhof\mijn documenten\visual studio 2017\projects\edingcnc\cncapinet\netdll_edingcnc - v4.3.36 - x64 support\netdll_edingcnc\typedefenumclass.h(54): warning C4091: 'typedef value ': ignored on left of 'OosterhofDesign::CncDef_HandWheelMul' when no variable is declared
+f:\s oosterhof\mijn documenten\visual studio 2017\projects\edingcnc\cncapinet\netdll_edingcnc - v4.3.36 - x64 support\netdll_edingcnc\typedefenumclass.h(65): warning C4091: 'typedef value ': ignored on left of 'OosterhofDesign::CncDef_HandWheelSel' when no variable is declared
+f:\s oosterhof\mijn documenten\visual studio 2017\projects\edingcnc\cncapinet\netdll_edingcnc - v4.3.36 - x64 support\netdll_edingcnc\typedefenumclass.h(302): warning C4091: 'typedef value ': ignored on left of 'OosterhofDesign::CncCpuType' when no variable is declared
+f:\s oosterhof\mijn documenten\visual studio 2017\projects\edingcnc\cncapinet\netdll_edingcnc - v4.3.36 - x64 support\netdll_edingcnc\cnc_typesnetframework.h(1855): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+  Netdll_EdingCnc.vcxproj -> F:\S Oosterhof\Mijn Documenten\Visual Studio 2017\Projects\edingcnc\CncApiNet\Netdll_EdingCnc - v4.3.36 - x64 support\Release\CncapiNet64.dll

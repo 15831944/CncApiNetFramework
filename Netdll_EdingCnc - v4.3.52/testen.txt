@@ -1,0 +1,13 @@
+testen:
+class CncUiCfg
+	
+	/* Show something else in place of the software version in the GUI */
+	property String^ overrideVersionText//[CNC_MAX_NAME_LENGTH];
+
+	/* Qr scanner, set to 1..99 for COM1 .. COM99, 0 for no function */
+	property int QrScannerComportNumber
+
+	property String^ jobFolder//[CNC_MAX_PATH];
+class Group_GetCncServer
+		property String^ GetServerVersion //CONTROLEREN OF CHARPOINTER LEEG GEMAAKT WORDT
+		property String^ GetHeaderVersion

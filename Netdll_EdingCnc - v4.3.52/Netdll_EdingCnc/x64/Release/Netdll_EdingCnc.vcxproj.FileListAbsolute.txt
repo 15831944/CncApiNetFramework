@@ -1,0 +1,1 @@
+F:\S Oosterhof\Mijn Documenten\Visual Studio 2017\Projects\edingcnc\CncApiNet\NetFrameWork\Netdll_EdingCnc - v4.3.51\Netdll_EdingCnc\x64\Release\Netdll_EdingCnc.vcxprojAssemblyReference.cache

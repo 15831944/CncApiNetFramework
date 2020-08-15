@@ -1,0 +1,1 @@
+removed counter for creater and deleted pointers 
