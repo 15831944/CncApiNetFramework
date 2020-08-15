@@ -13,10 +13,10 @@ Some of the Cncserver's variables are read-only pointers.
 property sample:
 
 current setters:
-
+//.....
 public ref class CncBasicInterpreterStatus : public Managedstruct<CNC_BASIC_INTERPRETER_STATUS>
 {
-//.....
+
   property CncCartBool^ axesPresent
   {
 			CncCartBool^get()
@@ -30,12 +30,15 @@ public ref class CncBasicInterpreterStatus : public Managedstruct<CNC_BASIC_INTE
 				ValuePointertype->axesPresent =Temp_axesPresent->ValuePointertype[0];
 			}
   }
-  //....
-}
 
+}
+//....
+
+new setters:
+//.....
 public ref class CncBasicInterpreterStatus : public Managedstruct<CNC_BASIC_INTERPRETER_STATUS>
 {
-//.....
+
   property CncCartBool^ axesPresent
   {
 			CncCartBool^get()
@@ -49,9 +52,9 @@ public ref class CncBasicInterpreterStatus : public Managedstruct<CNC_BASIC_INTE
 				InternalCncMethods::SetPropertyIfUnlocked<CNC_CART_BOOL>(Value->ValuePointertype[0], &ValuePointertype->axesPresent, LockOverrideDataInPointer);
 			}
   }
-  //....
-}
 
+}
+//....
 
 
 
