@@ -33,7 +33,7 @@ current setters:
 				ValuePointertype->axesPresent =Temp_axesPresent->ValuePointertype[0];
 			}
   		}
-	//.....
+		//.....
 	}
 
 
@@ -55,7 +55,7 @@ new setters:
 				InternalCncMethods::SetPropertyIfUnlocked<CNC_CART_BOOL>(Value->ValuePointertype[0], &ValuePointertype->axesPresent, LockOverrideDataInPointer);
 			}
   		}
-	//.....
+		//.....
 	}
 
 
